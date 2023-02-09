@@ -1,0 +1,13 @@
+package com.example.myapplication;
+
+public enum LoginState {
+    EXISTING_USERNAME,
+    REGISTRATION_SUCCESS,
+    REGISTRATION_FAILED,
+    REGISTRATION_PENDING,
+    LOGIN_SUCCESS,
+    LOGIN_FAILED,
+    INVALID_PASSWORD,
+    START_LOADING,
+    STOP_LOADING
+}
